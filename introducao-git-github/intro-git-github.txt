@@ -1,0 +1,12 @@
+INTRODUÇÃO GIT E GITHUB
+
+O git bash é um terminal extendindo para otimizar o uso do git. 
+
+
+
+
+COMANDOS BÁSICOS
+
+- DIR:
+- CD:
+- CD ..:
