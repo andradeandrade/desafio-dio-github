@@ -1,12 +1,37 @@
-INTRODUÇÃO GIT E GITHUB
+ # INTRODUÇÃO GIT E GITHUB
 
-O git bash é um terminal extendindo para otimizar o uso do git. 
-
-
+#####O git bash é um terminal extendindo para otimizar o uso do git. 
 
 
-COMANDOS BÁSICOS
 
-- DIR:
-- CD:
-- CD ..:
+## COMANDOS BÁSICOS
+
+- DIR: listar pastas
+- CD: navegar entre pastas
+- CD ..: voltar na navegação
+- CRTL + L: limpa tela
+- TAB: auto-completa
+- MKDIR + NOME DA PASTA: criar uma pasta 
+- DEL: deletar arquivos
+- RMDIR: deletar pastas
+- SETA PARA CIMA: histórico de comandos
+
+
+git clone + link
+git status
+git add . 
+git commit -m "descrição"
+git push origin main 
+
+
+## SHA 1
+
+Significa Secure Hash Algorithm (Algoritmo de Hash Seguro).
+É um conjunto de hash criptográfadas projetadas pela NSA (Agência de Segurança NAcional dos EUA). Esta encriptação gera um conjunto de carateres identificador de 40 dígitos.
+
+## Objetos internos do Git
+
+- blobs: bloco básico de composição / guarda o SHA1 do arquivo.
+- trees: armazena blobs e aponta blobs diferentes / monta a estrutura dos arquivos.
+- commit: junta tudo / aponta para trees e blobs.
+
